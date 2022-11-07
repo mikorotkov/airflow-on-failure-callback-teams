@@ -2,7 +2,7 @@
 
 Function `send_ms_teams_notification` receives definitions for ["message card"](https://docs.microsoft.com/en-us/outlook/actionable-messages/message-card-reference) to be displayed in MS Teams
 
-It then uses [pymsteams] (https://github.com/rveachkc/pymsteams) PYPI package to construct this card based on parameters and send it to webhook url (defined separately for each channel in MS teams).
+It then uses [pymsteams](https://github.com/rveachkc/pymsteams) PYPI package to construct this card based on parameters and send it to webhook url (defined separately for each channel in MS teams).
 
 Function `send_notification_on_failure` receives context dictionary from the dag that calls the functions.
 
