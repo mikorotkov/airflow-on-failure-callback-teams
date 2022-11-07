@@ -23,4 +23,4 @@ default_args = {
 }
 ```
 - In first line we import the function `send_ms_teams_notification`. As evident from import path the script in contained in folder `./modules`
-- In last line we use this script as callback in case the dag failes.
+- In last line we use this script as callback in case the dag fails.
