@@ -10,7 +10,7 @@ Context contains all the information about the dag and it's tasks. After that it
 
 # Example usage in Airflow
 
-```
+```python
 from modules.send_ms_teams_notification import send_notification_on_failure
 
 default_args = {
